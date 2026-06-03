@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+
+* {
+  margin:0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body{
+font-family: "Roboto Condensed", sans-serif;
+line-height: 1.6;
+color: #1f1b1b;
+background-color: #f4f4f4;
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem  2rem;
+  background-color: #44445a;
+  color:#f4f4f4;
+}
+
+.navbar .logo {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.navbar .navlinks{
+list-style: none;
+display: flex;
+gap: 1rem;
+}
+
+.navbar .navlinks li{
+padding:0.5rem 1rem;
+}
+
+.navbar .navlinks a{
+text-decoration: none;
+color:#f4f4f4;
+
+}
+
+.navbar .navlinks a:hover{
+  color: aqua;
+}
+
+.hero {
+  height: 100vh;
+  background:
+    linear-gradient(rgba(11, 9, 9, 0.5), rgba(57, 52, 52, 0.6)),
+    url("pexels-kampus-7928121.jpg");
+  background-size: cover;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+
+.hero h1 {
+  font-size: 1.5rem;
+ margin-bottom: 2rem;
+  color:#f4f4f4;
+}
+
+.hero p {
+  
+ margin-bottom: 2rem;
+  color:#f4f4f4;
+  text-shadow: #070606;
+}
+
+div a{
+  padding:0.60rem;
+  background-color: rgb(28, 113, 192);
+  color:#f4f4f4;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  border-radius: 6px;
+}
+
+div a:hover{
+  color:rgb(1, 30, 100);
+}
+
+footer{
+  text-align: center;
+  background-color:#44445a;
+  color: #f4f4f4;
+}
+
+
+
+
+
+
+
