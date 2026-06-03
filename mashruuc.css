@@ -1,0 +1,212 @@
+/* Reset yar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar */
+ nav {
+    display: flex;
+     justify-content: space-between;
+     align-items: center;
+   padding: 20px 10%;
+    background-color: rgb(248, 245, 245);   
+} 
+
+/* Logo */
+nav h2 {
+  
+    font-size: 22px;       
+    font-weight: bold;     
+    color: #4f46e5;     
+    letter-spacing: 0px;   
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: capitalize;
+
+}
+
+/* List */
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+/* Links */
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Get Started Button */
+nav ul li:last-child a {
+    background-color: #4f46e5;
+    color: white;
+    padding: 8px 18px;
+    border-radius: 8px;s
+}
+
+
+nav ul li a:hover {
+    color: red;
+}
+
+nav ul li a {
+    text-decoration: none;
+     color: #333;
+    transition: 0.3s;
+}
+
+/* Hero Section */
+.hero {
+    height: 65vh;              /* Dhererka screen-ka */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   /* Vertical center */
+    align-items: center;       /* Horizontal center */
+    text-align: center;
+    padding: 20px;
+}
+.hero {
+    margin-top: -40px;
+}
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 60px;
+    margin-top: 65px;
+    letter-spacing: 0px;
+    word-spacing: 0px;
+}
+
+p{
+    margin: 10px;
+    /* font-family: 'Times New Roman', Times, serif; */
+     
+}
+
+/* Container-ka isku haya labada badhan si ay dhexda u yimaadaan, iskuna xigaan */
+.button-container {
+  display: flex;
+  justify-content: center; /* Dhexda ayuu keenayaa */
+  align-items: center;
+  gap: 16px; /* Waa fogaanta u dhexaysa labada badhan */
+  margin-top: 20px;
+}
+
+/* Naqshadda guud ee labada badhan ay wadaagaan */
+.btn {
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 6px; /* Geesaha ayuu yara qaloocinayaa */
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* Badhanka "Get Started" (Midabka Buluugga ah) */
+.btn-primary {
+  background-color: #4f46e5; /* Midabka buluugga/fiyaatiga ah */
+  color: white;
+  border: none;
+}
+
+/* Marka jiirka (mouse) la dul geeyo badhanka primary */
+.btn-primary:hover {
+  /* background-color: #caaf38; */
+}
+
+/* Badhanka "Learn More" (Caddaanka leh xariiqda) */
+.btn-secondary {
+  background-color: white;
+  color: #374151; /* Qoraalka oo cawl madow xiga ah */
+  border: 1px solid #d1d5db; /* Xariiqda khafiifka ah ee ku wareegsan */
+}
+
+/* Marka jiirka (mouse) la dul geeyo badhanka secondary */
+.btn-secondary:hover {
+  background-color: #cece0d;
+}
+
+/* Container-ka weyn ee isku haya */
+.features-container {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 24px;
+  padding: 60px 20px;
+  background-color: #ffffff; /* Ama midabka aad rabto */
+  font-family: 'Inter', sans-serif;
+}
+
+/* Naqshadda qaanad kasta (Card) */
+.card {
+  flex: 1;
+  max-width: 350px;
+  background: #ffffff;
+  padding: 32px;
+  border-radius: 12px;
+  border: 1px solid #f3f4f6; /* Xariiq khafiif ah */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.03); /* Hoos aad u khafiif ah */
+  transition: all 0.3s ease;
+}
+
+/* Marka mouse-ka la dul dhigo (Hover effect) */
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.07);
+}
+
+/* Meesha astaanta (Icon) ku dhex jirto */
+.icon-wrapper {
+  width: 48px;
+  height: 48px;
+  background-color: #f5f3ff; /* Midab buluug khafiif ah */
+  color: #4f46e5; /* Midabka astaanta */
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+
+/* Cinwaanka (Heading) */
+.card h3 {
+  font-size: 20px;
+  color: #111827;
+  margin-bottom: 12px;
+  font-weight: 700;
+}
+
+/* Qoraalka yar (Paragraph) */
+.card p {
+  font-size: 15px;
+  color: #6b7280;
+  line-height: 1.6;
+}
+
+/* Si uu moobiilka ugu shaqeeyo (Responsive) */
+@media (max-width: 768px) {
+  .features-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* .features-container{
+   margin: 0%;
+   border: #4f46e5;
+   background-color: #111827;
+  
+} */
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 5%;
+  width: 100%;
+}

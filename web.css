@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 80px;
+    background: transparent;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.navbar nav a {
+    margin-left: 30px;
+    text-decoration: none;
+    color: #1f2a44;
+    font-weight: 500;
+}
+
+/* HERO */
+.hero {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 60px 80px;
+    background: linear-gradient(
+        90deg,
+        #ffffff 0%,
+        #f1eaff 40%,
+        #e3d2ff 60%,
+        #ffd2b3 80%,
+        #fff1c1 100%
+    );
+}
+
+.hero-left {
+    flex: 1;
+}
+
+.hero-left h1 {
+    font-size: 48px;
+    color: #1f2a44;
+    margin-bottom: 20px;
+}
+
+.hero-left h1 span {
+    color: #6c63ff;
+}
+
+.hero-left p {
+    font-size: 16px;
+    color: #555;
+    max-width: 520px;
+    margin-bottom: 30px;
+}
+
+.buttons {
+    margin-bottom: 30px;
+}
+
+.btn {
+    padding: 12px 26px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    margin-right: 15px;
+    display: inline-block;
+}
+
+.primary {
+    background: #0b0f3a;
+    color: #fff;
+}
+
+.secondary {
+    background: #6c63ff;
+    color: #fff;
+}
+
+/* STATS */
+.stats {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.avatars img {
+    border-radius: 50%;
+    border: 2px solid #fff;
+    margin-left: -10px;
+}
+
+.stats span {
+    font-size: 14px;
+    color: #333;
+}
+
+/* RIGHT IMAGE */
+.hero-right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-right img {
+    width: 360px;
+    border-radius: 50%;
+    background: #fff;
+    padding: 15px;
+}

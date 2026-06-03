@@ -1,0 +1,64 @@
+*{
+   background-color: rgb(197, 177, 153); 
+ 
+}
+
+h1{
+    color: rgb(239, 237, 237);
+    font-size: 35px;
+    text-align: center;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.ciwanka{
+    background-color: rgb(29, 61, 120);
+    letter-spacing: 2px;
+    
+}
+#cali {
+    background-color: aqua;
+    text-align: left;
+width: 800PX;
+    font-size: x-large;
+font-family: 'Times New Roman', Times, serif;  
+padding: 10px;
+border: 
+
+
+}
+#cali:hover {
+text-decoration: none;
+}
+
+.p.info{
+background-color: rgb(99, 63, 90);
+color: aliceblue;
+font-family: 'Times New Roman', Times, serif;
+font-size: 17px;
+
+}
+
+button {
+    background-color: blue;
+    color:white;
+    size: 20px;
+    width: 60PX;
+    border-radius: 10PX;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0px;
+    border: 20px;
+    /* float: center; */
+    flex-direction: row-reverse;
+    
+}
+button:hover{
+    color: aqua;
+    text-decoration: underline;
+    
+}
+
+.classbuttom{
+    text-align: center;
+}
